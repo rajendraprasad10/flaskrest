@@ -24,4 +24,4 @@ def home():
 
 
 if __name__ == "__main__":
-    connex_app.run(debug=True)
+    connex_app.run(host='127.0.0.1', port=5000,debug=True)
